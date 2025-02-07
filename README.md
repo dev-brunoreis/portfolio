@@ -1,75 +1,14 @@
-# Nuxt Minimal Starter
+# Meu Portfólio
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este é o meu portfólio desenvolvido com **Nuxt.js**, focado em performance, SEO e uma experiência interativa para apresentar meus projetos e habilidades.
 
-## Setup
+## Tecnologias Utilizadas
 
-Make sure to install dependencies:
+- [Nuxt.js](https://nuxt.com/) - Framework Vue.js
+- [Tailwind CSS](https://tailwindcss.com/) - Estilização moderna e responsiva
+- [VueUse](https://vueuse.org/) - Utilitários avançados para Vue.js
+- [GSAP](https://greensock.com/gsap/) - Animações fluidas e performáticas
 
-```bash
-# npm
-npm install
+## Licença
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Este projeto é licenciado sob a **MIT License** - Sinta-se livre para usar e contribuir!
