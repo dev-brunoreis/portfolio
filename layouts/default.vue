@@ -1,0 +1,4 @@
+<template>
+    <PageHeader />
+    <slot />
+</template>
