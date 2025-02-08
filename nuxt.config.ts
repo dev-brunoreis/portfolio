@@ -8,4 +8,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxt/icon'
   ],
+  plugins: [
+    './plugins/easterEgg.js'
+  ]
 })
