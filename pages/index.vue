@@ -1,6 +1,5 @@
 <template>
-    <div class="my-4">
+    <div class="md:max-w-[1024px] w-[90%] mx-auto my-8">
         <SectionPresentation />
-        <SectionTechnologies />
     </div>
 </template>
