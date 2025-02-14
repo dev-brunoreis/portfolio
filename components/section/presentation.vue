@@ -1,25 +1,25 @@
 <template>
-    <div class="flex gap-10 flex-col">
+    <div class="flex flex-col gap-10">
         <div>
-            <h1 class="text-4xl my-8">Bruno Reis</h1>
-            <div class="text-gray-500 text-justify text-md flex gap-2 flex-col">
-                <p class="flex">
-                    Olá! Sou um desenvolvedor Full-Stack com especialização em PHP e Magento, com grande paixão por arquitetura de sistemas e soluções escaláveis. Trabalho com desenvolvimento de aplicações web de alto desempenho desde 2019 e, ao longo desses anos, venho aprimorando minhas habilidades e explorando novas tecnologias para criar soluções inovadoras e eficientes.
-                </p>
+            <div class="my-8">
+                <h1 class="text-4xl font-bold">Bruno Reis</h1>
+                <p class="text-lg dark:text-gray-300">Desenvolvedor Web Fullstack Freelancer.</p>
+            </div>
+            <div class="text-gray-500 dark:text-gray-300 text-md flex flex-col gap-4 leading-relaxed">
+                <p>Transformo ideias em soluções digitais eficientes, escaláveis e de alto desempenho.</p>
+                <p>Desenvolvo sistemas completos, do backend robusto à interface dinâmica, garantindo performance,
+                    segurança e fácil manutenção.</p>
+                <p>Com experiência em DevOps, automação e infraestrutura em nuvem (AWS, Huawei Cloud), entrego soluções
+                    modernas e inteligentes.</p>
+                <p>Se busca inovação e qualidade, vamos conversar!</p>
 
-                <p class="flex">
-                    Tenho experiência com JavaScript e Vue.js, e sou focado em criar códigos simples, de fácil manutenção e expansão. Atualmente, estou desenvolvendo uma API RESTful de ecommerce sem frameworks, como parte do meu aprendizado em soluções mais customizadas.
-                </p>
-
-                <p class="flex">
-                    No meu tempo livre, gosto de testar novas tecnologias, estou me aprofundando em arquitetura de microserviços e mensageria.
-                </p>
             </div>
         </div>
 
         <div class="flex">
-            <a class="bg-black hover:opacity-70 cursor-pointer rounded-md text-white font-bold transition-all ease-in px-4 py-2"
-                href="">Sobre mim</a>
+            <a href="mailto:contato@brunoreis.dev"
+                class="bg-black dark:bg-white dark:text-black hover:opacity-80 cursor-pointer rounded-md text-white font-bold transition-all ease-in-out duration-200 px-6 py-3 text-center px-4 shadow-lg">Solicitar
+                orçamento</a>
         </div>
     </div>
 </template>

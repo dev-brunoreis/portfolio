@@ -22,12 +22,12 @@ onUnmounted(() => {
 
 <template>
     <div :class="[
-        'h-14 transition-all duration-300',
-        isSticky ? 'fixed top-0 left-0 right-0 bg-white/50 backdrop-blur-lg shadow-md' : 'relative'
+        'h-14',
+        isSticky ? 'fixed top-0 left-0 right-0 bg-white shadow-md bg-white/50 dark:bg-gray-900/50 backdrop-blur-lg dark:text-gray-100' : 'relative'
     ]">
         <div class="md:max-w-[1024px] w-[90%] items-center justify-between mx-auto h-full flex">
             <PageHeaderNavigation class="flex" />
-            <PageHeaderContact class="flex" />
+            <PageHeaderButtons class="flex" />
         </div>
     </div>
 </template>
