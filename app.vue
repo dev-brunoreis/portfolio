@@ -13,6 +13,9 @@ useHead({
 });
 
 const colorMode = useColorMode();
+if (!colorMode.preference) {
+    colorMode.preference = 'system';
+}
 </script>
 
 <style>
