@@ -24,10 +24,11 @@
         "nuxt-gtag": "^3.0.2",
         "pinia": "^2.3.1",
         "vue": "latest",
-        "vue-router": "latest",
-        "wrangler": "^3.109.1"
+        "vue-router": "latest"
     },
     "devDependencies": {
-        "@iconify-json/uil": "^1.2.3"
+        "@iconify-json/uil": "^1.2.3",
+        "nitro-cloudflare-dev": "^0.2.1",
+        "wrangler": "^3.109.2"
     }
 }
