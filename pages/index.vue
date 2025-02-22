@@ -1,5 +1,5 @@
 <template>
-    <div class="dark:bg-gray-900 dark:text-gray-100">
+    <div>
       <Head>
         <Title>Bruno Reis | Desenvolvedor Web Fullstack Freelancer</Title>
         <Meta name="description" content="Desenvolvedor web fullstack freelancer especializado em soluções escaláveis, Magento, Laravel, Vue.js, automação e integração de APIs." />
