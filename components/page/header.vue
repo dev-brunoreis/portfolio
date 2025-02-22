@@ -23,7 +23,7 @@ onUnmounted(() => {
 <template>
     <div :class="[
         'h-14',
-        isSticky ? 'fixed top-0 left-0 right-0 bg-white shadow-md bg-white/50 dark:bg-gray-900/50 backdrop-blur-lg dark:text-gray-100' : 'relative'
+        isSticky ? 'fixed top-0 left-0 right-0 bg-white shadow-md bg-white/50 backdrop-blur-lg' : 'relative'
     ]">
         <div class="md:max-w-[1024px] w-[90%] items-center justify-between mx-auto h-full flex">
             <PageHeaderNavigation class="flex" />

@@ -21,13 +21,6 @@ useHead({
     box-sizing: border-box;
 }
 
-html {
-    background-color: #ffffff;
-    color: #1a1a1a;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    scroll-behavior: smooth;
-}
-
 .page-enter-active,
 .page-leave-active {
     transition: opacity 0.2s;
