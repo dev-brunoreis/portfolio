@@ -10,7 +10,7 @@
         <Link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
   
-      <main class="md:max-w-4xl w-[90%] mx-auto py-6">
+      <main class="md:max-w-[1024px] w-[90%] mx-auto py-6">
         <section>
           <SectionPresentation />
         </section>

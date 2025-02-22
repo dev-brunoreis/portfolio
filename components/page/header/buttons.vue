@@ -21,11 +21,6 @@ onMounted(() => {
 <template>
     <header>
         <div class="flex justify-between items-center gap-4">
-            <a target="_blank" :href="whatsappLink"
-                class="p-2 rounded-md cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700 transition-all ease-in">
-                <Icon class="flex size-6" name="uil:whatsapp" />
-            </a>
-
             <a target="_blank" :href="githubLink"
                 class="p-2 rounded-md cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700 transition-all ease-in">
                 <Icon class="flex size-6" name="uil:github" />

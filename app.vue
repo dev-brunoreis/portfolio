@@ -20,7 +20,7 @@ if (!colorMode.preference) {
 
 <style>
 * {
-    font-family: Inter, sans-serif;
+    font-family: "GeistMono",ui-monospace,SFMono-Regular,Roboto Mono,Menlo,Monaco,Liberation Mono,DejaVu Sans Mono,Courier New,monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
