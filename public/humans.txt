@@ -1,0 +1,15 @@
+/* TEAM */
+    Dono: Bruno Reis
+    Contato: contato@brunoreis.dev
+    GitHub: https://github.com/dev-brunoreis
+    From: Londrina, Paraná, Brazil
+
+/* SITE */
+    Última atualização: 22/02/2025
+    Linguagem: Português
+    Doctype: HTML5
+    Framework: Nuxt.js
+    Estilização: Tailwind CSS
+    Hospedagem: Cloudflare Pages
+    CDN & Segurança: Cloudflare
+    IDE: Cursor

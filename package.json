@@ -8,8 +8,9 @@
         "generate": "nuxt generate",
         "preview": "npm run build && wrangler pages dev",
         "postinstall": "nuxt prepare",
-        "deploy": "npm run build && wrangler pages deploy",
-        "cf-typegen": "wrangler types"
+        "deploy": "npm run generate-version && wrangler pages deploy dist",
+        "cf-typegen": "wrangler types",
+        "generate-version": "node version.js"
     },
     "dependencies": {
         "@nuxt/fonts": "^0.10.3",

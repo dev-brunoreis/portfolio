@@ -1,15 +1,15 @@
 <script setup>
-import { computed } from 'vue'
+// import { computed } from 'vue'
 
-const colorMode = useColorMode()
+// const colorMode = useColorMode()
 const githubLink = ref('https://github.com/dev-brunoreis')
 const whatsappLink = ref('')
 
-const iconName = computed(() => (colorMode.value === 'dark' ? 'uil:sun' : 'uil:moon'))
+// const iconName = computed(() => (colorMode.value === 'dark' ? 'uil:sun' : 'uil:moon'))
 
-const toggleColorMode = () => {
-    colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
-}
+// const toggleColorMode = () => {
+//     colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
+// }
 
 onMounted(() => {
     const isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent)
@@ -20,16 +20,13 @@ onMounted(() => {
 
 <template>
     <header>
-        <div class="flex justify-between items-center gap-4">
-            <a target="_blank" :href="githubLink"
-                class="p-2 rounded-md cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700 transition-all ease-in">
-                <Icon class="flex size-6" name="uil:github" />
-            </a>
+        <div class="flex justify-between items-center gap-4 group">
+            <Icon name="skill-icons:github-dark" @click="location.href= githubLink" class="size-6 flex cursor-pointer transition-transform duration-200 group-hover:-translate-y-1" />
 
-            <div @click="toggleColorMode"
-                class="p-2 rounded-md cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700 transition-all ease-in">
+            <!--<div @click="toggleColorMode"
+                class="p-2 rounded-md cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700 flex transition-all ease-in">
                 <Icon :name="iconName" class="size-6 flex" />
-            </div>
+            </div>-->
         </div>
     </header>
 </template>
