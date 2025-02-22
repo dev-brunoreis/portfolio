@@ -10,7 +10,8 @@
         "postinstall": "nuxt prepare",
         "deploy": "node scripts/deploy.js",
         "cf-typegen": "wrangler types",
-        "create-tag": "node scripts/create-tag.js"
+        "create-tag": "node scripts/create-tag.js",
+        "prebuild": "node scripts/create-tag.js"
     },
     "dependencies": {
         "@nuxt/fonts": "^0.10.3",

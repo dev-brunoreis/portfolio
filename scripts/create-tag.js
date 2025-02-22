@@ -24,8 +24,4 @@ function createTag() {
   return newVersion;
 }
 
-// if (require.main === module) {
-  createTag();
-// }
-
 export { createTag }; 

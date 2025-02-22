@@ -4,6 +4,11 @@ import { createTag } from './create-tag.js';
 async function deploy() {
   try {
     const version = createTag();
+    
+    // Adiciona e commita o arquivo version.txt
+    execSync('git add version.txt');
+    execSync('git commit -m "chore: update version"');
+    execSync('git push');
 
     console.log('Iniciando deploy...');
     execSync('wrangler pages deploy', { stdio: 'inherit' });

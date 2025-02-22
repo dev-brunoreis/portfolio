@@ -2,7 +2,7 @@ import fs from 'fs'
 
 const version = fs.existsSync('./version.txt')
   ? fs.readFileSync('./version.txt', 'utf-8').trim()
-  : 'dev'
+  : process.env.CF_PAGES_COMMIT_SHA?.substring(0, 7) || 'dev'
 
 export default defineNuxtConfig({
     compatibilityDate: '2024-11-01',
