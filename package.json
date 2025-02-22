@@ -3,10 +3,13 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "nuxt dev",
-        "deploy": "wrangler pages deploy",
         "build": "nuxt build",
-        "generate": "nuxt generate"
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "npm run build && wrangler pages dev",
+        "postinstall": "nuxt prepare",
+        "deploy": "npm run build && wrangler pages deploy",
+        "cf-typegen": "wrangler types"
     },
     "dependencies": {
         "@nuxt/fonts": "^0.10.3",
