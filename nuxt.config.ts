@@ -7,7 +7,6 @@ export default defineNuxtConfig({
         '@nuxt/fonts',
         '@pinia/nuxt',
         '@nuxt/icon',
-        '@nuxtjs/color-mode',
         'nuxt-gtag',
         '@nuxtjs/robots',
         '@nuxtjs/sitemap',
