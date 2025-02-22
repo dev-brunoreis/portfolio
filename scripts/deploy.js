@@ -3,11 +3,6 @@ import { createTag } from './create-tag.js';
 
 async function deploy() {
   try {
-    const status = execSync('git status --porcelain').toString();
-    if (status) {
-      throw new Error('Existem mudanças não commitadas. Faça commit antes do deploy');
-    }
-
     const version = createTag();
 
     console.log('Iniciando deploy...');
