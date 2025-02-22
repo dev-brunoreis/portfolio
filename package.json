@@ -8,8 +8,9 @@
         "generate": "nuxt generate",
         "preview": "npm run build && wrangler pages dev",
         "postinstall": "nuxt prepare",
-        "deploy": "wrangler pages deploy dist",
-        "cf-typegen": "wrangler types"
+        "deploy": "node scripts/deploy.js",
+        "cf-typegen": "wrangler types",
+        "create-tag": "node scripts/create-tag.js"
     },
     "dependencies": {
         "@nuxt/fonts": "^0.10.3",
