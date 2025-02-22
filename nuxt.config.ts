@@ -1,9 +1,3 @@
-import fs from 'fs'
-
-const version = fs.existsSync('./version.txt')
-  ? fs.readFileSync('./version.txt', 'utf-8').trim()
-  : process.env.CF_PAGES_COMMIT_SHA?.substring(0, 7) || 'dev'
-
 export default defineNuxtConfig({
     compatibilityDate: '2024-11-01',
     devtools: { enabled: true },
@@ -43,10 +37,5 @@ export default defineNuxtConfig({
     site: { url: 'brunoreis.dev' },
     nitro: {
         preset: "cloudflare-pages"
-    },
-    runtimeConfig: {
-        public: {
-            appVersion: version
-        }
     },
 })

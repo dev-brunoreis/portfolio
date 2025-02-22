@@ -3,15 +3,8 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "nuxt build",
         "dev": "nuxt dev",
-        "generate": "nuxt generate",
-        "preview": "npm run build && wrangler pages dev",
-        "postinstall": "nuxt prepare",
-        "deploy": "node scripts/deploy.js",
-        "cf-typegen": "wrangler types",
-        "create-tag": "node scripts/create-tag.js",
-        "prebuild": "node scripts/create-tag.js"
+        "deploy": "wrangler pages deploy"
     },
     "dependencies": {
         "@nuxt/fonts": "^0.10.3",
